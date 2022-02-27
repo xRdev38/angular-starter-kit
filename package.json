@@ -1,6 +1,6 @@
 {
   "name": "real-world",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,7 +9,7 @@
     "test": "jest --detectOpenHandles",
     "lint": "ng lint",
     "e2e": "cypress open",
-    "commit" : "git-cz",
+    "commit": "git-cz",
     "lint:fix": "ng lint --fix",
     "prettier:check": "prettier --check 'src/**/*.{ts,js}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,scss,js}'",
