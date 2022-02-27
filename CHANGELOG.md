@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/xRdev38/real-world/compare/v0.0.4...v0.0.5) (2022-02-27)
+
+
+### Others
+
+* **configuration:** remove karma configuration ([876f526](https://github.com/xRdev38/real-world/commit/876f526e798fb827c973b61f603b7d1b992fabb0))
+
 ### [0.0.4](https://github.com/xRdev38/real-world/compare/v0.0.3...v0.0.4) (2022-02-27)
 
 
