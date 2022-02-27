@@ -16,8 +16,7 @@
     "validate": "run-s lint:fix lint prettier:fix prettier:check",
     "release": "standard-version",
     "postrelease": "run-s release:*",
-    "release:tags": "git push --follow-tags origin main",
-    "release:github": "conventional-github-releaser -p angular"
+    "release:tags": "git push --follow-tags origin main"
   },
   "private": true,
   "config": {
