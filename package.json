@@ -9,19 +9,22 @@
     "test": "jest --detectOpenHandles",
     "lint": "ng lint",
     "e2e": "cypress open",
+    "commit" : "git-cz",
     "lint:fix": "ng lint --fix",
     "prettier:check": "prettier --check 'src/**/*.{ts,js}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,scss,js}'",
     "validate": "run-s lint:fix lint prettier:fix prettier:check",
     "release": "standard-version",
     "postrelease": "run-s release:*",
-    "release:tags": "git push --follow-tags origin master",
+    "release:tags": "git push --follow-tags origin main",
     "release:github": "conventional-github-releaser -p angular"
   },
   "private": true,
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog",
+      "disableScopeLowerCase": false,
+      "disableSubjectLowerCase": false,
       "pre-commit": "lint-staged"
     }
   },
