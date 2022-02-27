@@ -13,7 +13,7 @@
     "prettier:check": "prettier --check 'src/**/*.{ts,js}'",
     "prettier:fix": "prettier --write 'src/**/*.{ts,scss,js}'",
     "validate": "run-s lint:fix lint prettier:fix prettier:check",
-    "release": "standard-version -a",
+    "release": "standard-version",
     "postrelease": "run-s release:*",
     "release:tags": "git push --follow-tags origin master",
     "release:github": "conventional-github-releaser -p angular"
