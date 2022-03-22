@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/xRdev38/real-world/compare/v0.0.5...v0.0.6) (2022-03-22)
+
+
+### Others
+
+* **configuration:** update package.json and README ([8b22bf1](https://github.com/xRdev38/real-world/commit/8b22bf17614b27506e29e4ec47fe864057560982))
+* **storybook:** add storybook to project ([a964a8d](https://github.com/xRdev38/real-world/commit/a964a8dc740c4af845334934782e256eadaa6e48))
+
 ### [0.0.5](https://github.com/xRdev38/real-world/compare/v0.0.4...v0.0.5) (2022-02-27)
 
 
