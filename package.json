@@ -1,6 +1,7 @@
 {
-  "name": "real-world",
+  "name": "angular-starter-kit",
   "version": "0.0.5",
+  "description": "angular base project with minimal configuration",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -21,6 +22,19 @@
     "storybook": "yarn docs:json && start-storybook -p 6006",
     "build-storybook": "yarn docs:json && build-storybook"
   },
+  "keywords": [
+    "angular",
+    "startkit",
+    "frontend",
+    "typescript",
+    "standard-version",
+    "commitizen",
+    "husky",
+    "jest",
+    "storybook",
+    "prettier",
+    "compodoc"
+  ],
   "private": true,
   "config": {
     "commitizen": {
